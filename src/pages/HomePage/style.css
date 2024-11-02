@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.logo {
+  width: 25rem;
+  height: 20rem;
+  background-image: url(./img/Baby.jpg);
+  background-size: cover;
+}
+
+
+.menu {
+  text-align: center;
+  padding-top: 20px; 
+}
+
+.menu a {
+  font-weight: bold;
+  color: darkorange;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: orangered;
+}
+
+main {
+  flex: 1;
+}
+
+
+footer {
+
+  text-align: center;
+  padding: 1rem;
+
+}

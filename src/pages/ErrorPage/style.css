@@ -1,0 +1,21 @@
+.body {
+background-color: cadetblue;
+}
+
+.text {
+    margin: 10px;
+  }
+
+  .menuError {
+    text-align: left;
+    padding-top: 20px; 
+  }
+  .menuError a {
+    font-weight: bold;
+    color: darkorange;
+    text-decoration: none;
+  }
+  
+  .menuError a:hover {
+    color: orangered;
+  }
